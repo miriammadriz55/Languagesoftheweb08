@@ -36,7 +36,7 @@ CSS Requirements:
 - The page should not induce seizures or headaches - in other words, mind the color pallet you choose
 - All text should be easy to read
 
-##Exercise 4
+## Exercise 4
 Create a web page that have a paragraph with some dummy text. Near the paragraph have text fields to accept
 the following values:
 Border:
@@ -52,7 +52,7 @@ Background color:
 Finally, have a button that, when clicked, changes the border and background color to be as specified. You can
 use either the rgb() method or a color code, but you should tell the user what units they are in (00-FF or 0-255).
 
-##Exercise 5
+## Exercise 5
 When you go to your people.eecs page, you'll most likely see a simple file listing. This is the default behavior
 of apache. To make a landing page, you can write an index.html file.
 In your index.html
