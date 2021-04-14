@@ -1,0 +1,37 @@
+html * {
+    font-size: 20pt;
+    font-family: cursive;
+}
+
+body {
+    background-image: linear-gradient(blue, pink, lightblue, yellow);
+}
+
+.title {
+    text-align: center;
+    font-size: 70pt;
+    top: 75pt;
+    color: yellow;
+}
+
+.slideshow {
+    position: relative;
+    margin: auto;
+    max-width: 1000px;
+    max-height: 1000px;
+    top: 15pt;
+}
+
+.next {
+    right: -45pt;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+}
+
+.back {
+    left: -75pt;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+}

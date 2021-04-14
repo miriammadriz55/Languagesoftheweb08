@@ -1,0 +1,21 @@
+html * {
+    font-size: 10pt;
+    font-family: cursive;
+}
+
+h1.title {
+    color: darkblue;
+    font-size: 22pt;
+}
+h2.title2 {
+    color: darkblue;
+    font-size: 22pt;
+}
+
+p.paragraph {
+    color: royalblue;
+}
+
+body {
+    background-color: lavender;
+}

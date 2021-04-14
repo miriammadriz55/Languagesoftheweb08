@@ -1,0 +1,14 @@
+html * {
+    font-size: 15pt;
+    font-family: cursive;
+}
+
+body {
+    min-height:10px;
+    background-color: rgb(221, 229, 248);
+}
+
+p{
+    border: 3px solid yellow;
+    padding: 5px;
+}

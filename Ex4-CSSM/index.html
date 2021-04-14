@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link href= "style.css" rel = "stylesheet">
+</head>
+<body>
+<p id="manipulation" style="background-color:rgb(245, 203, 219)"
+   style=border-width:20px;> Si se puede. Vive tu vida al maximo. </p>
+<div class="borderFeatures">
+<h1> Manipulate border (00-FF or 0-255) </h1>
+<b>
+Red Value:
+<br><b>
+<label for="redBorder"></label><input id="redBorder" type="text">
+<br>
+Green Value:
+<br><b>
+<label for="greenBorder"></label><input id="greenBorder" type="text">
+<br><b>
+Blue Value:
+<br><b>
+<label for="blueBorder"></label><input id="blueBorder" type="text">
+<br>
+Width Value:
+<br><b>
+<label for="widthBorder"></label><input id="widthBorder" type="text">
+    <br>
+    <br>
+</div>
+<div class="backgroundFeatures">
+<h1> Manipulate background color (00-FF or 0-255) </h1>
+Red Value:
+<br>
+<label for="redBackground"></label><input id="redBackground" type="text">
+<br>
+Green Value:
+<br>
+<label for="greenBackground"></label><input id="greenBackground" type="text">
+    <br>
+Blue Value:
+<br>
+<label for="blueBackground"></label><input id="blueBackground" type="text">
+    <br>
+</div>
+    <br>
+<div>
+    <button id="manipulate" onclick=cssmanipulation()> Manipulate</button>
+</div>
+</body>
+<script src="css_manipulation.js"></script>
+</html>
